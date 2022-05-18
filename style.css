@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Baloo+2:wght@800&family=Fira+Sans&display=swap');
+
+:root{
+    --sand: #F0E5CF;
+    --white: #F7F6F2;
+    --black: #191919;
+    --darker-red: #9B0000;
+    --dark-red: #CD1818;
+    --red: #DC000E;
+    --shine-red: #F90716;
+    --orange: #FF6C1A;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    background: var(--black);
+}
+
+body, button, input, select, textarea{
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--white)
+}
+
+h2{
+    font-size: 16px;
+}
+
+/*define a margem e o enchimento da fonte*/
+h1, h2{
+    margin: 0;
+    font-weight: 400;
+}
+
+p {
+    color: var(--white);
+}
+
+button{
+    background: var(--dark-red);
+    border: 0;
+    border-radius: 30px;
+    padding: 5px 8px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 26px;
+    font-family:'Baloo 2', cursive;
+    border: 4px solid var(--shine-red);
+}
+
+header{
+    /* background:blue; */
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+}
+
+header .container{
+    width: 30%;
+    height: fit-content;
+    padding: 0 100px;
+}
+
+/*define os parâmetros do h1, que está dentro de container, que está dentro de header*/
+header .container h1{
+    font-size: 64px;
+    font-family: 'Allan', cursive;
+    color: var(--shine-red);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 75px;
+    /* background: var(--sand); */
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+
+}
+
+nav ul a{
+    font-size: 24px;
+    color: var(--sand);
+    text-decoration: none;
+    margin: 0 35px;
+}
