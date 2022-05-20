@@ -26,7 +26,7 @@ body, button, input, select, textarea{
 }
 
 h2{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*define a margem e o enchimento da fonte*/
@@ -59,16 +59,22 @@ header{
 }
 
 header .container{
-    width: 30%;
+    width: 50%;
     height: fit-content;
     padding: 0 100px;
 }
 
+header .container img{
+    display:none;
+
+}
+
 /*define os parâmetros do h1, que está dentro de container, que está dentro de header*/
 header .container h1{
-    font-size: 64px;
+    font-size: 90px;
     font-family: 'Allan', cursive;
     color: var(--shine-red);
+    padding: 9px;
 }
 
 nav {
@@ -78,7 +84,7 @@ nav {
     height: 75px;
     /* background: var(--sand); */
     padding: 0 100px;
-    position: sticky;
+    position: sticky; /*deixa a nav fixa na parte superior da tela*/
     top: 0;
 
 }
@@ -88,4 +94,25 @@ nav ul a{
     color: var(--sand);
     text-decoration: none;
     margin: 0 35px;
+}
+
+section{
+    background: blue;
+    height: 1000px;
+}
+
+@media(max-width:767px){
+
+    header .container{
+        width: 100%;
+    }
+    
+    header .container img{
+        display: inline;
+        height: 110px;
+        margin-bottom: 90px;
+    }
+    nav img{
+        display:none;
+    }
 }
