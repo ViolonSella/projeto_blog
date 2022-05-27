@@ -96,11 +96,26 @@ nav ul a{
     margin: 0 35px;
 }
 
-section{
-    background: blue;
-    height: 1000px;
+nav ul a svg{
+    display: none;
 }
 
+.about-me{
+    display: flex;
+    padding: 100px;
+}
+
+.about-me .container{
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about-me .img-container img{
+    width: 50%;
+    height: 100%;
+}
+
+/*Resposividade para tablet*/
 @media(max-width:767px){
 
     header .container{
@@ -114,7 +129,7 @@ section{
         
     }
     nav img{
-        display:none;
+        display:none; 
     }
 }
 
@@ -134,7 +149,13 @@ section{
     }
 
     nav ul a {
-        font-size: 13px;
-        
+        font-size: 13px;        
+    }
+
+    nav ul a svg{
+        display:block;
+
     }
 }
+
+
