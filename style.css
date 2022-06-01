@@ -110,9 +110,29 @@ nav ul a svg{
     padding-right: 50px;
 }
 
-.about-me .img-container img{
+.about-me .img-container{
     width: 50%;
-    height: 100%;
+    text-align: center;
+    position: relative;
+
+}
+
+.about-me .img-container img{
+    width: 300px ;
+    height: 450px;
+}
+
+.about-me .img-container .line {
+    width: 100%;
+    height: 115%;
+    border: 3px solid var(--red);
+
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 70%/2 - 53px);
+}
+.about-me .img-container .line.red{
+    transform:rotate(6.36deg);
 }
 
 /*Resposividade para tablet*/
