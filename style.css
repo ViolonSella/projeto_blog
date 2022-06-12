@@ -102,32 +102,34 @@ nav ul a svg{
 
 .about-me{
     display: flex;
+    text-align: center;
     padding: 100px;
 }
 
 .about-me .container{
-    width: 50%;
-    padding-right: 50px;
+    width: 30%;
+    padding-right: 60px;
 }
 
-.about-me .img-container{
-    text-align: center;
+.about-me .img-container{   
     position: relative;
 }
 
 .about-me .img-container img{
-    width: 300px ;
-    height: 450px;
+    width: 200px ;
+    height: 280px;
+    margin-left: 200px;
 }
 
 .about-me .img-container .line {
-    width: 350px;
-    height: 500px;
+    width: 250px;
+    height: 300px;
     border: 3px solid var(--shine-red);
 
     position: absolute;
-    top: -25px;
+    top: -12px;
     left: -25px;
+    margin-left: 200px;
 }
 .about-me .img-container .line.red{
     transform:rotate(6.36deg);
@@ -142,14 +144,14 @@ nav ul a svg{
     }
     
     header .container img{
-        display: inline;
         height: 110px;
         margin-bottom: 90px;
-        
     }
     nav img{
         display:none; 
     }
+
+    
 }
 
 /* Quando a tela for abaixo de 480px*/
@@ -176,19 +178,21 @@ nav ul a svg{
 
     }
     .about-me .img-container img{
-        width: 100px ;
-        height: 150px;
-        
+        width: 300px ;
+        height: 350px;
+        position: absolute;
+        margin-left: 300px;        
     }
     
     .about-me .img-container .line {
-        width: 350px;
-        height: 500px;
+        width: 315px;
+        height: 370px;
         border: 3px solid var(--shine-red);
     
         position: absolute;
-        top: -25px;
-        left: -25px;
+        margin-left: 300px;
+        top:  -9px;
+        left: -10px;
     }
 }
 
@@ -196,3 +200,130 @@ nav ul a svg{
     text-align: center;
     color:var(--shine-red);
 }
+
+.services .container .serv1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 282px;
+    height: 281px;
+    left: 54px;
+    top: 1329px;
+
+    background: #191919;
+    border: 2px solid #9B0000;
+    border-radius: 23px;
+}
+
+.services .container .serv1 .ul{
+
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 426px;
+    top: 1417px;
+
+}
+
+.services .container .serv1 .h3{
+    position: absolute;
+    width: 177px;
+    height: 49px;
+    left: 107px;
+    top: 1349px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.services .container .serv2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 320.75px;
+    height: 282.59px;
+    left: 627.75px;
+    top: 1612.03px;
+
+    background: #191919;
+    border: 2px solid #9B0000;
+    border-radius: 23px;
+}
+
+.services .container .serv2 .ul{
+
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 426px;
+    top: 1417px;
+
+}
+
+.services .container .serv2 .h3{
+    position: absolute;
+    width: 177px;
+    height: 49px;
+    left: 107px;
+    top: 1349px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.services .container .serv3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 320.75px;
+    height: 282.59px;
+    left: 627.75px;
+    top: 1612.03px;
+
+    background: #191919;
+    border: 2px solid #9B0000;
+    border-radius: 23px;
+}
+
+.services .container .serv3 .ul{
+
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 426px;
+    top: 1417px;
+
+}
+
+.services .container .serv3 .h3{
+    position: absolute;
+    width: 177px;
+    height: 49px;
+    left: 107px;
+    top: 1349px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
