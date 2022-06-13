@@ -66,7 +66,6 @@ header .container{
 
 header .container img{
     display:none;
-
 }
 
 /*define os parâmetros do h1, que está dentro de container, que está dentro de header*/
@@ -131,16 +130,163 @@ nav ul a svg{
     left: -25px;
     margin-left: 200px;
 }
+
 .about-me .img-container .line.red{
     transform:rotate(6.36deg);
     border: 3px solid var(--darker-red);
 }
 
+.services h1{
+    font-size: 40px;
+    text-align: center;
+    color: var(--shine-red);
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.services .container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.services .container .serv1{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; 
+    width: 282px;
+    height: 281px;
+    left: 54px;
+    top: 100px;
+    background: #191919;
+    border: 2px solid #9B0000;
+    border-radius: 23px;
+    text-align: center;   
+}
+
+.services .container .serv1 .icone{
+    color:var(--orange)
+}
+
+.services .container .serv2{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box; 
+    width: 282px;
+    height: 281px;
+    left: 54px;
+    top: 100px;
+    background: #191919;
+    border: 2px solid #9B0000;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.services .container .serv2 .icone{
+    color:var(--orange)
+}
+
+.services .container .serv3{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box; 
+    width: 282px;
+    height: 281px;
+    left: 54px;
+    top: 100px;
+    background: #191919;
+    border: 2px solid #9B0000;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.services .container .serv3 .icone{
+    color:var(--orange)
+}
+
+.portfolio h1{
+    font-size: 40px;
+    text-align: center;
+    color: var(--red    );
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.portfolio .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.portfolio .container .quadrado1{
+    box-sizing: border-box;
+    width: 271px;
+    height: 430px;
+    left: 51px;
+    top: 1921px;
+    background: url(servidores.jpg);
+    border: 4px solid var(--orange);
+    border-radius: 10px;
+    text-align: center;
+}
+.portfolio .container .quadrado1 img{
+    display: flex;
+    width:180px;
+    height: 100px;
+    border-radius: 10px;
+    border: 3px solid var(--darker-red);
+
+}
+
+.portfolio .container .quadrado2{
+    box-sizing: border-box;
+    width: 271px;
+    height: 430px;
+    left: 51px;
+    top: 1921px;
+    background: url(servidores.jpg);
+    border: 4px solid var(--orange);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.portfolio .container .quadrado2 img{
+    display: flex;
+    width:180px;
+    height: 100px;
+    border-radius: 10px;
+    border: 3px solid var(--darker-red);
+}
+
+.portfolio .container .quadrado3{
+    box-sizing: border-box;
+    width: 271px;
+    height: 430px;
+    left: 51px;
+    top: 1921px;
+    background: url(servidores.jpg);
+    border: 4px solid var(--orange);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.portfolio .container .quadrado3 img{
+    display: flex;
+    width:180px;
+    height: 100px;
+    border-radius: 10px;
+    border: 3px solid var(--darker-red);
+}
+
+
+
+
 /*Resposividade para tablet*/
 @media(max-width:767px){
 
     header .container{
-        width: 100%;
+        width: 30%;
+        position: relative;
     }
     
     header .container img{
@@ -188,142 +334,10 @@ nav ul a svg{
         width: 315px;
         height: 370px;
         border: 3px solid var(--shine-red);
-    
         position: absolute;
         margin-left: 300px;
         top:  -9px;
         left: -10px;
     }
 }
-
-.services {
-    text-align: center;
-    color:var(--shine-red);
-}
-
-.services .container .serv1{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 282px;
-    height: 281px;
-    left: 54px;
-    top: 1329px;
-
-    background: #191919;
-    border: 2px solid #9B0000;
-    border-radius: 23px;
-}
-
-.services .container .serv1 .ul{
-
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    left: 426px;
-    top: 1417px;
-
-}
-
-.services .container .serv1 .h3{
-    position: absolute;
-    width: 177px;
-    height: 49px;
-    left: 107px;
-    top: 1349px;
-
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-.services .container .serv2{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 320.75px;
-    height: 282.59px;
-    left: 627.75px;
-    top: 1612.03px;
-
-    background: #191919;
-    border: 2px solid #9B0000;
-    border-radius: 23px;
-}
-
-.services .container .serv2 .ul{
-
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    left: 426px;
-    top: 1417px;
-
-}
-
-.services .container .serv2 .h3{
-    position: absolute;
-    width: 177px;
-    height: 49px;
-    left: 107px;
-    top: 1349px;
-
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-
-.services .container .serv3{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 320.75px;
-    height: 282.59px;
-    left: 627.75px;
-    top: 1612.03px;
-
-    background: #191919;
-    border: 2px solid #9B0000;
-    border-radius: 23px;
-}
-
-.services .container .serv3 .ul{
-
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    left: 426px;
-    top: 1417px;
-
-}
-
-.services .container .serv3 .h3{
-    position: absolute;
-    width: 177px;
-    height: 49px;
-    left: 107px;
-    top: 1349px;
-
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-
 
