@@ -23,15 +23,21 @@
     </header>
     <nav>
         <img src="assets/logo.png" alt="logo">
-        <ul>
-            <a href=""><i data-feather = "user"></i>Sobre Mim</a>
-            <a href=""><i data-feather = "briefcase"></i>Serviços</a>
-            <a href=""><i data-feather = "sidebar"></i>Portfólio</a>
-            <a href=""><i data-feather = "clipboard"></i>Currículo</a>
-            <a href=""><i data-feather = "phone"></i>Contato</a>
+        <ul class="text">
+            <a href="">Sobre Mim</a>
+            <a href="">Serviços</a>
+            <a href="">Portfólio</a>
+            <a href="">Currículo</a>
+            <a href="">Contato</a>
+        </ul>
+        <ul class="svg">
+            <a href=""><i data-feather = "user"></i></a> 
+            <a href=""><i data-feather = "briefcase"></i></a>
+            <a href=""><i data-feather = "sidebar"></i></a>
+            <a href=""><i data-feather = "clipboard"></i></a>
+            <a href=""><i data-feather = "phone"></i></a>
         </ul>
     </nav>
-   
     <section class="about-me">
         <div class="container">
             <h1>Sobre Mim</h1>
@@ -44,9 +50,15 @@
             </p>
         </div>
         <div class="img-container">
-            <div class="line red"></div>
-            <div class="line darkred"></div>
-            <img src="assets/demente e cacatua.jpg" alt="Felipe Sella Lopes">
+
+            <div class="retangulos">
+                <img src="assets/retangulosimagem.png" alt="retangulos">
+            </div>
+
+            <div class="imagem">
+                <img src="assets/demente e cacatua.jpg" alt="Felipe Sella Lopes">
+            </div>
+            
         </div>
     </section>
 
@@ -77,61 +89,54 @@
         <h1>Portfólio</h1>
         <div class="container">
             <div class="quadrado1">
-                <img src="assets/Servidores.jpg" alt="Felipe Sella Lopes">
+                <img src="assets/Servidores.jpg" alt="servidores">
                 <h3>Manutenção de sala de servidores</h3>
+                <p>Projeto para a criação de um dispositivo para manutenção e controle de uma sala de servidores. 
+                    Verifica a temperatura e a corrente de enrgia, fornecendo status e notificando no caso de problemas.
+                </p>
             </div>
             <div class="quadrado2">
-                <img src="assets/Servidores.jpg" alt="Felipe Sella Lopes">
+                <img src="assets/Servidores.jpg" alt="servidores">
                 <h3>Manutenção de sala de servidores</h3>
+                <p>Projeto para a criação de um dispositivo para manutenção e controle de uma sala de servidores. 
+                    Verifica a temperatura e a corrente de enrgia, fornecendo status e notificando no caso de problemas.
+                </p>
             </div>
             <div class="quadrado3">
-                <img src="assets/Servidores.jpg" alt="Felipe Sella Lopes">
+                <img src="assets/Servidores.jpg" alt="servidores">
                 <h3>Manutenção de sala de servidores</h3>
+                <p>Projeto para a criação de um dispositivo para manutenção e controle de uma sala de servidores. 
+                    Verifica a temperatura e a corrente de enrgia, fornecendo status e notificando no caso de problemas.
+                </p>
             </div>
         </div>
     </section>
-    <section class="Curriculo">
+    <section class="curriculo">
         <h1>Currículo</h1>
         <div class="container">
-            <div class="coluna1">
-                <p>Nome:
-
-                    Idade:
-                    
-                    Formação:
-                    
-                    Cidade:
-                    
-                    Telefone:
-                    
-                    E-mail:
-                    
-                    Freelance:
-                    
-                    Exp:
-                    
-                    Idiomas:
-                    </p>
+            <img src="assets/paginadecurriculo.png" alt="paginacurriculo">
+            <div class="textos">
+                <p>
+                    Nome: Felipe Sella Lopes <br>
+                    <br>
+                    Idade: 18 anos <br>
+                    <br>
+                    Formação: Instituto Federal Do Paraná - Campus Cascavel <br>
+                    <br>    
+                    Cidade: Cascavel <br>
+                    <br>
+                    Telefone: (45) 99979-8889 <br>
+                    <br>  
+                    E-mail: pepinhosl1205@gmail.com <br>
+                    <br>    
+                    Freelance: Disponível <br>
+                    <br>    
+                    Exp: Java, HTML, CSS, Python, Pascal <br>
+                    <br>    
+                    Idiomas: Inglês(Fluente), Espanhol(Básico)
+                </p>
+                <div class="icone"><i data-feather = "download"></i> Baixar Currículo Completo</div>
             </div>
-            <div class="coluna2">Felipe Sella Lopes
-
-                18 anos
-                
-                Instituto Federal Do Paraná - Campus Cascavel
-                
-                Cascavel
-                
-                (45) 99979-8889
-                
-                pepinhosl1205@gmail.com
-                
-                Disponível
-                
-                Java, HTML, CSS, Python, Pascal
-                
-                Inglês(Fluente), Espanhol(Básico)
-            </div>
-            <div class="icone"><i data-feather = "download"></i>  Baixar Currículo Completo</div>
         </div>
     </section>
     <section class="contato">
@@ -140,6 +145,7 @@
             <p>Se acha que possuo as especificações necessárias e gostaria de me contatar, é por aqui:</p>
             <button>Entre em contato</button>
             <div class="icone"><i data-feather = "instagram"></i><i data-feather = "facebook"></i> <i data-feather = "mail"></i> <i data-feather = "message-circle"></i></div>
+            <p>Feito por Felipe Sella Lopes - 2022</p>
         </div>
     </section> 
     <script>
